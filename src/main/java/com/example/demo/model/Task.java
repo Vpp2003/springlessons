@@ -22,4 +22,7 @@ public class Task {
     @Column(name = "done")
     private boolean done;
 
+    @Column(name = "userid")
+    private Long userId;
+
 }
